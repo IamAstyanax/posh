@@ -1,4 +1,5 @@
- {
+Function Add-OSCCredential
+{
 	$target = Read-Host "Internet or network address"
 	$userName = Read-Host "UserName"
 	$Password = Read-Host "Password" -AsSecureString
@@ -29,4 +30,4 @@
 	
 }
 
-Add-OSCCredential 
+Add-OSCCredential
